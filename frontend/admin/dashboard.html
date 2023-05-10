@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .top{
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            background-color: black;
+        }
+        .top1{
+            display: flex;
+            justify-content: space-between;
+            margin: 30px 0px 0px 0px;
+            padding: 0px 300px;
+            background-color: rgb(255,242,216);
+        }
+        img{
+            width: 180px;
+            height: 90px;
+        }
+        .top1 div{
+            display: flex;
+            align-items: center;
+        }
+        .nav{
+            display: flex;
+            justify-content: center;
+            background-color: rgb(247,248,247);
+        }
+        .nav button{
+            width:200px;
+            height: 40px;
+            font-size: 20px;
+            font-weight: bold;
+            border: none;
+            background-color: rgb(247,248,247);
+        }
+        .nav button:hover{
+            background-color: rgb(100, 100, 100);
+            color: white;
+        }
+              
+    </style>
+</head>
+<body>
+    <div class="top">
+        <div class="top1">
+            <div class="logo"><a href="./dashboard.html"><img src="../img/brand.png" alt=""></a></div>
+            <div class="page"><h1>Admin Dashboard</h1></div>
+        </div>
+        <div class="nav">
+            <a href="./alluser.html"><button>All Users</button></a>
+            <a href="./allproduct.html"><button>All Products</button></a>
+            <a href="./addproduct.html"><button>Add New Product</button></a>
+            <a href="./updateproduct.html"><button>Update Product</button></a>
+            <a href="./buyhistory.html"><button>Order Placed</button></a>
+        </div>
+    </div>
+    
+</body>
+</html>
